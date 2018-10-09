@@ -1,0 +1,35 @@
+.Contact{
+    text-align: center;
+    padding:3rem;
+    letter-spacing: .1rem;
+}
+.contact-wrapper{
+    display:flex;
+    flex-direction: column;
+    height:70vh;
+    padding: 0px 6rem;
+
+}
+.input{
+    height:10%;
+    border:1px solid green;
+    margin:.1em 0px;
+    height:10%;
+    padding:2rem;
+}
+.text{
+    height:15rem;
+}
+.sendButton{
+    background-color:#18BC9C;
+    color:white;
+    font-family:'Oswald';
+    letter-spacing: .1rem;
+    margin:2rem;
+    border:none;
+    height:3rem;
+    width:5rem;
+}
+.myContact{
+    margin-bottom:2rem;
+}

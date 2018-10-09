@@ -1,0 +1,50 @@
+.Portfolio{
+    text-align:center;
+    padding:3rem;
+    
+}
+.title{
+    font-size:300%;
+}
+.thumbnail{
+    height:200px;
+    /* width:300px; */
+    /* margin:10px; */
+    /* border:2px dotted salmon; */
+}
+.portfolio-wrapper{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* border:1px solid red; */
+    padding:1rem;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    align-content: center;
+}
+.img-wrapper{
+    position: relative;
+    height:200px;
+    /* background-color: red; */
+    background-image: '../../Images/Search.svg';
+    /* border:1px solid red; */
+}
+.expandsvg{
+    height:101%;
+    width:91%;
+    margin:0px 15px;
+    position: absolute;
+    top:0px;
+    background-color: white;
+    z-index: 599;
+    opacity:0;
+    transition:.7s
+}
+.expandsvg:hover{
+    opacity:.9
+}
+
+.search{
+    position: relative;
+    top:35%;
+    height:30%;
+}

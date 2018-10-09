@@ -1,0 +1,16 @@
+.TopNav{
+    /* position:fixed; */
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-left:3rem;
+    letter-spacing:.1rem; 
+    height:5rem;
+    /* position: fixed; */
+}
+
+.nav{
+    width:50%;
+    display:flex;
+    justify-content: space-around
+}
