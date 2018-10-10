@@ -26,7 +26,7 @@
     "extends": "react-app"
   },
   "main": "server/server.js",
-  "proxy": {"target":"http://localhost:/4321"},
+  "proxy": "http://localhost:/4321",
   "browserslist": [
     ">0.2%",
     "not dead",
