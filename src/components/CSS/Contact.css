@@ -6,7 +6,8 @@
 .contact-wrapper{
     display:flex;
     flex-direction: column;
-    height:70vh;
+    /* height:30vh; */
+    min-height:auto;
     padding: 0px 6rem;
 
 }
@@ -19,6 +20,7 @@
 }
 .text{
     height:15rem;
+    min-height: 15rem;
 }
 .sendButton{
     background-color:#18BC9C;
@@ -31,5 +33,5 @@
     width:5rem;
 }
 .myContact{
-    margin-bottom:2rem;
+    /* margin-bottom:2rem; */
 }
