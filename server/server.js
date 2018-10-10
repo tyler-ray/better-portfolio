@@ -4,7 +4,7 @@ const app = express()
 const port = 4321
 const nodemailer = require('nodemailer')
 app.use(bodyParser.json())
-app.use(express.static(`${s__dirname}/build`))
+app.use(express.static(`${__dirname}/build`))
 require('dotenv').config()
 //nodemailer:
 let transporter = nodemailer.createTransport({
