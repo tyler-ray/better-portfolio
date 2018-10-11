@@ -53,3 +53,9 @@
         padding:0rem 3rem;
     }
 }
+
+@media(min-width:1000px){
+    .second-skills-wrapper{
+        margin:0px 10%;
+    }
+}

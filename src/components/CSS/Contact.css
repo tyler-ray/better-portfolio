@@ -44,3 +44,8 @@
         padding:2rem
     }
 }
+@media(min-width:900px){
+    .Contact{
+        padding: 0px 10%;
+    }
+}

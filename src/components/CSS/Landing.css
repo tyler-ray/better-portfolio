@@ -46,7 +46,7 @@
 }
 @media(min-width:660px){
     .headshot{
-        width:50%;
+        width:40%;
     }
     .sub-wrapper{
         padding:1rem 4rem;    
@@ -54,11 +54,11 @@
 }
 @media(min-width:900px){
     .headshot{
-        width:40%;
+        width:30%;
         margin-top:4rem;
     }
     .sub-wrapper{
-        padding:2rem 5rem;
+        padding:2rem 8rem;
         font-size:200%
     }
 }
