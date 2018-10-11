@@ -12,7 +12,7 @@ import Postgresql from '../Images/postgresql.png'
 function Skills() {
     return (
         <div className='Skills'>
-            <h1 className='title'>Skills</h1>
+            <h1 className='title skillsTitle'>Skills</h1>
             <div className="skills-wrapper">
                 <div className="second-skills-wrapper">
                     <div className="skill-set">

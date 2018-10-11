@@ -6,20 +6,24 @@
 }
 #name{
     font-size: 400%;
+    margin-bottom:1rem;
 }
 
 .headshot{
-    margin:4rem;
-    margin-bottom:2rem;
+    margin:2rem;
+    margin-bottom:1rem;
     height: auto;
-    width:30%;
+    width:70%;
 }
 .sub-wrapper{
     display:flex;
+    width:100%;
     justify-content: space-between;
-    padding: 3% 20%;
+    padding: 3% 3%;
     letter-spacing: .1rem;
-    font-size:200%;
+    font-size:100%;
+    /* border:1px solid red; */
+    margin-bottom:1rem;
 }
 .svg{
     height:4rem;
@@ -31,4 +35,30 @@
 }
 .svg:hover{
     opacity: 1;
+}
+@media (min-width:500px){
+    .sub-wrapper{
+        padding:1rem 3rem;
+    }
+    .headshot{
+        width:60%;
+    }
+}
+@media(min-width:660px){
+    .headshot{
+        width:50%;
+    }
+    .sub-wrapper{
+        padding:1rem 4rem;    
+    }
+}
+@media(min-width:900px){
+    .headshot{
+        width:40%;
+        margin-top:4rem;
+    }
+    .sub-wrapper{
+        padding:2rem 5rem;
+        font-size:200%
+    }
 }

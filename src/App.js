@@ -73,8 +73,12 @@ class App extends Component {
         <Light>
           <Contact />
         </Light>
-        
-        <Dark><p>Copyright 2018 jtylerray.com</p></Dark>
+
+        <Dark>
+          <div className="copyrighted">
+            <p>Copyright 2018 jtylerray.com</p>
+          </div>
+        </Dark>
 
 
       </div>
