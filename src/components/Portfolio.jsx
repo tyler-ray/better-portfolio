@@ -40,8 +40,8 @@ function Portfolio() {
             title: 'Coming Soon',
             text: '',
             imageUrl: comingSoon,
-            imageWidth: 3,
-            imageHeight: 2,
+            imageWidth: 400,
+            imageHeight: 300,
             imageAlt: 'Comning Soon',
             animation: false,
         })

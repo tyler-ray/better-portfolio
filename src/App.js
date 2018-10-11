@@ -41,9 +41,9 @@ const Dark = styled.div`
   background-color:${dark};
   width:100%;
   font-family:'Oswald';
-  color:'#FFFFFF';
+  color:white;
   height:50px;
-`
+  text-align:center;`
 
 
 class App extends Component {
@@ -74,7 +74,7 @@ class App extends Component {
           <Contact />
         </Light>
         
-        <Dark/>
+        <Dark><p>Copyright 2018 jtylerray.com</p></Dark>
 
 
       </div>
