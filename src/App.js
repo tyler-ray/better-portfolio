@@ -6,7 +6,7 @@ import './components/CSS/Landing.css'
 import './components/CSS/Skills.css'
 import './components/CSS/Portfolio.css'
 import './components/CSS/Contact.css'
-
+//This is really hard.
 import styled from 'styled-components'
 // import About from './components/About'
 import Contact from './components/Contact'
