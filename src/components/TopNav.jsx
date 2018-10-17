@@ -9,10 +9,10 @@ class TopNav extends Component {
                 </div>
                 <div className="nav">
                     {/* <h4>Home</h4> */}
-                    <h3>Skills</h3>
+                    {/* <h3>Skills</h3>
                     <h3>Portfolio</h3>
                     <h3>About</h3>
-                    <h3>Contact</h3>
+                    <h3>Contact</h3> */}
                 </div>
             </div>
         )
