@@ -36,6 +36,9 @@
 .svg:hover{
     opacity: 1;
 }
+.svgLink>a{
+    color:white;
+}
 @media (min-width:500px){
     .sub-wrapper{
         padding:1rem 3rem;

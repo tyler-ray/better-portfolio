@@ -11,7 +11,7 @@ function Portfolio() {
         swal({
 
             title: 'Ray Rentals -- personally developed',
-            html: ('This project was intended to provide a location for people to rent out large outdoor equipment. Rays Rentals uses quite a few technologies. The technologies used were HTML, CSS, JavaScript, React.js, Node.js, Axios & Express, Sessions objects as well as Auth0.  <br/><a href="https://rayrentals.com" className = "Link">Live Site</a><hr/> <a href="https://github.com/tyler-ray/New-Rental" className ="Link">Git Repo</a>'),
+            html: ('This project was intended to provide a location for people to rent out large outdoor equipment. Rays Rentals uses quite a few technologies. The technologies used were HTML, CSS, JavaScript, React.js, Node.js, Axios & Express, Sessions objects as well as Auth0.  <br/><a href="https://rayrentals.com" className = "Link">Live Site (Coming soon)</a><hr/> <a href="https://github.com/tyler-ray/New-Rental" className ="Link">Git Repo</a>'),
 
 
             imageUrl: rayRentals,
@@ -26,7 +26,7 @@ function Portfolio() {
         console.log('second')
         swal({
             title: 'Typing Trainer',
-            html: `Typing trainer is a project with the intent of increasing the typing speeds of a programmer or web designer. Several code snippets in several languages are available. Typing speed and accuracy are tracked and stored, and available for viewing in the profile space. These Metrics include heavy logic. A Leaderboard of top Typists also are available for viewing in the menu tab.  Technologies used include: HTML, CSS, JavaScript, React, Redux, RoboHash, SQL (Massive) Sessions objects, and Node.  Project Partners include: Amy Knudson, Damian Antia, Jason Begay, Russel Memory <br/> <a href="https://typing-trainer.com/" >Live Site</a> <br/> <a href="https://github.com/tyler-ray/type-trainer" className ="Link">Git Repo</a>`,
+            html: `Typing trainer is a project with the intent of increasing the typing speeds of a programmer or web designer. Several code snippets in several languages are available. Typing speed and accuracy are tracked and stored, and available for viewing in the profile space. These Metrics include heavy logic. A Leaderboard of top Typists also are available for viewing in the menu tab.  Technologies used include: HTML, CSS, JavaScript, React, Redux, RoboHash, SQL (Massive) Sessions objects, and Node.  Project Partners include: Amy Knudson, Damian Antia, Jason Begay, Russel Memory <br/> <a href="https://typing-trainer.com/" >Live Site </a> <br/> <a href="https://github.com/tyler-ray/type-trainer" className ="Link">Git Repo</a>`,
             imageUrl: typingTrainer,
             imageWidth: 500,
             imageHeight: 300,
