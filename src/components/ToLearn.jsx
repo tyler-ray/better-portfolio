@@ -4,7 +4,7 @@ function ToLearn() {
     return (
         <div className="ToLearn">
             <h1 className="title">Future Skills:</h1>
-            <p>I've got a passion for learning new skills, especially in the web design space. Here's what I've got planned so far.  Think I should add somthing to the list? Contact me below!</p>
+            <p>I've got a passion for learning new skills, especially in the web development space. Here's what I've got planned so far.  Think I should add somthing to the list? Contact me below!</p>
             <div className="futureSkillsWrapper1">
                 <div className="wrapper1">
                     <h3 className="futureSkill">Lodash</h3>
