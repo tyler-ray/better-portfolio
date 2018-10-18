@@ -3,3 +3,17 @@
     /* flex-direction: ; */
     justify-content: space-around;
 }
+.ToLearn{
+    padding:2rem 1rem;
+}
+
+@media(min-width:500px){
+    .ToLearn{
+        padding:2rem 3rem;
+    }
+}
+@media(min-width:900px){
+    .ToLearn{
+        padding:2rem 3rem;
+    }
+}
