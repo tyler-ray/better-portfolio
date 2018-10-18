@@ -13,6 +13,7 @@
     grid-row-gap: 30px;
     grid-column-gap: 30px;
     align-content: center;
+    transition:1s
 }
 .img-wrapper{
     position: relative;
@@ -53,6 +54,7 @@
 @media (min-width:500px){
     .portfolio-wrapper{
         grid-template-columns: repeat(2,1fr);
+        transition: 1s;
         padding-bottom:2rem;
     }
     .Portfolio{

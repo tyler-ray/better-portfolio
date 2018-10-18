@@ -5,6 +5,7 @@ import typingTrainer from '../Images/img/Typing trainer.JPG'
 import search from '../Images/Search.svg'
 import portfolioPic from '../Images/img/Portfolio.JPG'
 import swal from 'sweetalert2';
+import Resume from '../components/Resume'
 
 function Portfolio() {
     let rayRentalsFunction = () => {
@@ -50,13 +51,13 @@ function Portfolio() {
     let portfolioFunction = () =>{
         swal({
             title: 'Simple Portfolio',
-            html: `<a href="https://typing-trainer.com/" >Live Site </a> <br/> <a href="https://github.com/tyler-ray/type-trainer" className ="Link">Git Repo</a>`,
+            html: `This is an increadibly simple site to host my project pieces and some basic information about me!<br/><a href="https://github.com/tyler-ray/better-portfolio" className ="Link">Git Repo</a>`,
             imageUrl: portfolioPic,
             imageWidth: 500,
             imageHeight: 300,
             imageAlt: 'Simple Portfolio',
             animation: false,
-            width: 1000
+            width: 1000 
         })
     }
     // let fifth = () =>{}
@@ -109,6 +110,7 @@ function Portfolio() {
                 </div>
 
             </div>
+            <Resume/>
         </div>
     )
 }

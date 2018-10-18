@@ -3,29 +3,46 @@
     padding:1rem;
     width:100%;
     overflow: hidden;
-    /* display:none; */
+    color:black;
 }
-/* .Skill{
-    border:3px dotted green;
-} */
+
+.skill-title{
+    color:black
+}
+
 .skills-wrapper{
-    /* border:3px solid red; */
     padding:1rem 1rem;
+    transition: 1s
 }
+
 .second-skills-wrapper{
-    /* border:3px dotted blue; */
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
     grid-row-gap: 2rem;    
+    transition: 1s;
 }
-/* .skill-set{ */
-    /* border:1px dotted aqua; */
-/* } */
-/* @media (max-width:320px) {
-    .Skills{
-        display:none;
-    }
-} */
+
+
+
+.second-skills-wrapper:hover>div{
+    opacity:0.4;
+    transition:.7s;
+}
+
+.second-skills-wrapper:hover >div:hover{
+    opacity:1;
+    transition:.7s;
+    box-shadow:0px 1px 10px 0px;
+}
+
+
+
+
+
+
+
+
+
 @media(min-width:320px){
     .Skill{
         width:70%;
@@ -39,21 +56,17 @@
     .skill-set{
         width:auto;
         height:100%;
-        
-        /* border:1px solid red; */
     }
     .Skill{
         width:70%;
     }
 }
-
 @media(min-width:900px){
     .second-skills-wrapper{
         grid-template-columns: repeat(5,1fr);
         padding:0rem 3rem;
     }
 }
-
 @media(min-width:1000px){
     .second-skills-wrapper{
         margin:0px 10%;

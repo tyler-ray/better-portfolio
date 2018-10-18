@@ -1,0 +1,5 @@
+.futureSkillsWrapper1{
+    display:flex;
+    /* flex-direction: ; */
+    justify-content: space-around;
+}

@@ -8,6 +8,8 @@ import './components/CSS/Portfolio.css'
 import './components/CSS/Contact.css'
 import './components/CSS/About.css'
 import './components/CSS/Gallery.css'
+import './components/CSS/Resume.css'
+import './components/CSS/ToLearn.css'
 //Components
 import styled from 'styled-components'
 import About from './components/About'

@@ -1,6 +1,7 @@
 import React from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel'
+
 import dolphin from '../Images/img/Personal/Dolifin 1.jpg'
 import scuba1 from '../Images/img/Personal/scuba 1.jpg'
 import scuba2 from '../Images/img/Personal/scuba 2.jpg'
@@ -19,9 +20,9 @@ import kenpo from '../Images/img/Personal/Kenpo 1.jpg'
 import josh from '../Images/img/Personal/el pitufo.jpg'
 import crash from '../Images/img/Personal/first crash.jpg'
 import falls from '../Images/img/Personal/Niagra falls.jpg'
-// import pearlHarbor from '../Images/img/Personal/Pearl harbor.jpg'
+import family2 from '../Images/img/Personal/26196450_10214014635827492_1983484947820191274_n.jpg'
+import family3 from '../Images/img//Personal/28280107_10214375774415731_8463497335754682737_n.jpg'
 
-// import cousins2 from '../Images/img/Personal/Cousins2.jpg'
 
 
 
@@ -107,10 +108,16 @@ function Gallery() {
                     <img src={falls} alt="" className="circleImg" />
                     <p></p>
                 </div>
-                {/* <div className="circulateImg">
-                    <img src={pearlHarbor} alt="" className="circleImg" />
+                <div className="circulateImg">
+                    <img src={family2} alt="" className="circleImg" />
                     <p></p>
-                </div>  */}
+                </div>
+                <div className="circulateImg">
+                    <img src={family3} alt="" className="circleImg" />
+                    <p></p>
+                </div>
+            
+             
             </Carousel>
 
 
