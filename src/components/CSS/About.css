@@ -3,14 +3,20 @@
 }
 .about-wrapper{
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
+    /* border:1px solid red; */
+    padding:1rem;
 }
 .about{
-    margin:2rem 3rem;
+    margin:1rem;
+    /* widows: 50%; */
+    /* border:1px solid red; */
+    font-size:23px;
+    text-align: justify;
 }
-.aboutMe{
-    font-size:20px;
-}
+/* .aboutMe{
+    border:1px dotted green;
+} */
 @media(max-width:600px){
     .about-wrapper{
         flex-direction: column;
