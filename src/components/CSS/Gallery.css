@@ -13,13 +13,27 @@
 }
 
 .Gallery{
-    padding:3rem;
+        padding:3rem;
     /* color:red; */
     font-size: 110%;
     height:100%;
-    /* background-color: aqua; */
+    
+    background-color: aqua;
 }
 .myGallery{
     padding-bottom:3rem;
+    margin:auto;
     margin-top:-3rem;
+    text-align: center;
+    /* border:1px solid red; */
+
+}
+
+
+.Carousel{
+    /* border:1px solid red;
+    margin:auto;
+    text-align:center; */
+    display:flex;
+    justify-content: center;
 }

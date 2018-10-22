@@ -1,16 +1,32 @@
 import React from 'react';
 import ToLearn from '../components/ToLearn'
 //Skills Images
-import CSS from '../Images/CSS.png'
-import Git from '../Images/Git.png'
-import HTML from '../Images/HTML.png'
-import Javascript from '../Images/javascript.png'
-import Jest from '../Images/jest.png'
-import Node from '../Images/node.png'
-import Photoshop from '../Images/photoshop.png'
-import ReactImg from '../Images/react.png'
-import SASS from '../Images/SASS.png'
-import Postgresql from '../Images/postgresql.png'
+
+import HTML from '../Images/SVGs/icons8-html-5 (2).svg'
+import CSS from '../Images/SVGs/icons8-css3.svg'
+import Javascript from '../Images/SVGs/icons8-javascript-filled.svg'
+import Git from '../Images/SVGs/icons8-git (1).svg'
+import Jest from '../Images/SVGs/JEST.png'
+import Node from '../Images/SVGs/icons8-nodejs.svg'
+import ReactImg from '../Images/SVGs/icons8-react-native-filled.svg'
+// import Photoshop from '../Images/SVGs/icons8-adobe-photoshop.svg'
+import Photoshop from '../Images/SVGs/icons8-adobe-photoshop (1).svg'
+import SASS from '../Images/SVGs/SASS.png'
+import Postgresql from '../Images/SVGs/icons8-postgresql.svg'
+
+
+
+
+// import CSS from '../Images/CSS.png'
+// import Git from '../Images/Git.png'
+// import HTML from '../Images/HTML.png'
+// import Javascript from '../Images/javascript.png'
+// import Jest from '../Images/jest.png'
+// import Node from '../Images/node.png'
+// import Photoshop from '../Images/photoshop.png'
+// import ReactImg from '../Images/react.png'
+// import SASS from '../Images/SASS.png'
+// import Postgresql from '../Images/postgresql.png'
 function Skills() {
     return (
         <div className='Skills'>

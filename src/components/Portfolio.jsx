@@ -5,7 +5,7 @@ import typingTrainer from '../Images/img/Typing trainer.JPG'
 import search from '../Images/Search.svg'
 import portfolioPic from '../Images/img/Portfolio.JPG'
 import swal from 'sweetalert2';
-import Resume from '../components/Resume'
+// import Resume from '../components/Resume'
 
 function Portfolio() {
     let rayRentalsFunction = () => {
@@ -110,7 +110,7 @@ function Portfolio() {
                 </div>
 
             </div>
-            <Resume/>
+            {/* <Resume/> */}
         </div>
     )
 }

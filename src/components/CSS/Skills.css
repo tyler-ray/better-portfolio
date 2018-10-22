@@ -5,6 +5,30 @@
     overflow: hidden;
     color:black;
 }
+.Skill{
+    height:100%;
+    /* border:3px solid red; */
+    width:auto;
+}
+
+.Git{
+    /* border:3px dotted dodgerblue; */
+    /* height:50px; */
+    transform:scale(1.3)
+}
+.HTML{
+    transform:scale(1.1)
+}
+.CSS{
+    transform: scale(1.1)
+}
+.Postgresql{
+    transform:scale(1.2)
+}
+.Photoshop{
+    /* border:1px solid red. */
+    transform:scale(1.1)
+}
 
 .skill-title{
     color:black

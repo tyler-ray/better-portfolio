@@ -32,49 +32,49 @@ function Gallery() {
     return (
         <div className="Gallery">
             <h1 className ='title myGallery'>Personal Gallery:</h1>
-            <Carousel className='Carousel' infiniteLoop={true} autoPlay={true} dynamicHeight={true}>
+            <Carousel className='Carousel' infiniteLoop={true} autoPlay={true} dynamicHeight={true} width={400} showThumbs={false}>
 
                 <div className="circulateImg">
                     <img src={dolphin} className='circleImg' alt="" />
                     <p>Hanging with Dolphins!</p>
                 </div>
-                <div className="circulateImg">
+                {/* <div className="circulateImg">
                     <img src={scuba1} className='circleImg' alt="" />
                     <p>Swimming with the fishes</p>
 
-                </div>
+                </div> */}
                 <div className="circulateImg">
                     <img src={scuba2} className='circleImg' alt="" />
                     <p>Swimming with the fishes 1</p>
                 </div>
-                <div className="circulateImg">
+                {/* <div className="circulateImg">
                     <img src={scuba3} className='circleImg' alt="" />
                     <p>Swimming with the fishes 2</p>
-                </div>
+                </div> */}
                 <div className="circulateImg">
                     <img src={cousins1} className='circleImg' alt="" />
                     <p>Cousins</p>
                 </div>
-                <div className="circulateImg">
+                {/* <div className="circulateImg">
                     <img src={cousins2} alt="" className="circleImg" />
                     <p></p>
-                </div>
+                </div> */}
                 <div className="circulateImg">
                     <img src={jessie} alt="" className="circleImg" />
                     <p></p>
                 </div>
-                <div className="circulateImg">
+                {/* <div className="circulateImg">
                     <img src={ballroom} alt="" className="circleImg" />
                     <p></p>
-                </div>
-                <div className="circulateImg">
+                </div> */}
+                {/* <div className="circulateImg">
                     <img src={theatre} alt="" className="circleImg" />
                     <p></p>
-                </div>
-                <div className="circulateImg">
+                </div> */}
+                {/* <div className="circulateImg">
                     <img src={family} alt="" className="circleImg" />
                     <p></p>
-                </div>
+                </div> */}
                 <div className="circulateImg">
                     <img src={mission1} alt="" className="circleImg" />
                     <p></p>
@@ -83,20 +83,20 @@ function Gallery() {
                     <img src={mission2} alt="" className="circleImg" />
                     <p></p>
                 </div>
-                <div className="circulateImg">
+                {/* <div className="circulateImg">
                     <img src={mission3} alt="" className="circleImg" />
                     <p></p>
                 </div>
                 <div className="circulateImg">
                     <img src={mission4} alt="" className="circleImg" />
                     <p></p>
-                </div>
+                </div> */}
 
                 <div className="circulateImg">
                     <img src={kenpo} alt="" className="circleImg" />
                     <p></p>
                 </div>
-                <div className="circulateImg">
+                {/* <div className="circulateImg">
                     <img src={josh} alt="" className="circleImg" />
                     <p></p>
                 </div>
@@ -115,7 +115,7 @@ function Gallery() {
                 <div className="circulateImg">
                     <img src={family3} alt="" className="circleImg" />
                     <p></p>
-                </div>
+                </div> */}
             
              
             </Carousel>
