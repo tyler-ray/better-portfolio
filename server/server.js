@@ -37,12 +37,14 @@ app.post('/api/inquire', (req, res) => {
   transporter.sendMail(HelperOptions, (error, info) => {
     if (error) {
       return console.log(error);
-    }
-    console.log("The message was sent!");
-    console.log(info);
-    res.send('successful').status(200)
+      res.sendStatus(500)
+    }else{
+      console.log("The message was sent!");
+      // console.log(info);
+      res.send('successful').status(200)
+    } 
   });
-  console.log(name, email, phone, message)
+  // console.log(name, email, phone, message)
 })
 
 

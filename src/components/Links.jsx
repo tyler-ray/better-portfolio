@@ -5,7 +5,7 @@ import email from '../Images/email.svg'
 function Links() {
     return (
         <div className='Links'>
-            <a href="github.com/tyler-ray" >
+            <a href="https://github.com/tyler-ray" >
                 <img src={github} alt="github" className='svg' />
             </a>
             <a href="https://www.linkedin.com/in/j-tyler-ray/">
