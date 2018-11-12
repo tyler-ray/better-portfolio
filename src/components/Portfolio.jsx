@@ -5,6 +5,7 @@ import typingTrainer from '../Images/img/Typing trainer.JPG'
 import search from '../Images/Search.svg'
 import portfolioPic from '../Images/img/Portfolio.JPG'
 import swal from 'sweetalert2';
+import brit from '../Images/img/Brit Lamour 1.JPG'
 // import Resume from '../components/Resume'
 
 function Portfolio() {
@@ -40,7 +41,7 @@ function Portfolio() {
     let pronto = () => {
         swal({
             title: 'Coming Soon:',
-            text: 'Next project: Brit Lamour Clone',
+            text: 'Current project: Brit Lamour Clone',
             imageUrl: comingSoon,
             imageWidth: 400,
             imageHeight: 300,
@@ -48,6 +49,18 @@ function Portfolio() {
             animation: false,
         })
     }
+    let britlamour = () =>{
+        swal({
+            title: 'Under Construction: Brit L\'amour clone!',
+            html: "This is my current project. It is still unfinished and unpolished. But it has been a great learning experience. Currently I'm working towards cleaning up the CSS, and adding content. soon there will be a blog, photo gallery, working contact section and more. Stay tuned as I will be updating this regularly.  This project is a clone of my Cousin 'Brit's website. She is a social media marketer as well as photographer, Real Estate Agent, and Blogger.  I decided to clone her website as a challenge to myself.  The current technology stack is HTML, CSS, React, and Node.js.  soon I will add technologies such as nodemailer and more.<br/><a href='http://britlamour.com'>Live Site</a> <br/> <a href='https://github.com/tyler-ray/brit-Lamour-clone'>Git Hub Repo</a> ",
+            imageUrl: brit,
+            imageWidth: 400,
+            imageHeight: 300,
+            imageAlt: 'Brit L\'amour website clone',
+            animation: false,
+        })
+    }
+    
     let portfolioFunction = () =>{
         swal({
             title: 'Simple Portfolio',
@@ -88,11 +101,11 @@ function Portfolio() {
                     <img src={portfolioPic} alt="Simple Portfolio" className='thumbnail' />
                 </div>
 
-                <div className="img-wrapper" onClick={() => { pronto() }}>
+                <div className="img-wrapper" onClick={() => { britlamour() }}>
                     <div className="expandsvg">
                         <img src={search} alt="zoom" className='search' />
                     </div>
-                    <img src={comingSoon} alt="Coming soon Thumbnail" className='thumbnail' />
+                    <img src={brit} alt="Coming soon Thumbnail" className='thumbnail' />
                 </div>
 
                 <div className="img-wrapper" onClick={() => { pronto() }}>
