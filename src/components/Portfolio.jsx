@@ -41,7 +41,7 @@ function Portfolio() {
     let pronto = () => {
         swal({
             title: 'Coming Soon:',
-            text: 'Current project: Brit Lamour Clone',
+            text: 'Current project: Brit Lamour Clone, Next Project: React Libraries',
             imageUrl: comingSoon,
             imageWidth: 400,
             imageHeight: 300,
